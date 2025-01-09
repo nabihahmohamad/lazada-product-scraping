@@ -10,21 +10,6 @@ This project is a Python script that scrapes product details (Product Name, Pric
 - Runs every 1 minute to capture fresh data.
 - Simple and easy-to-use with Selenium and Python.
 
-## Requirements
-
-Before running the script, you will need to install the required libraries:
-
-- **Python 3.x**
-- **Selenium** for web scraping
-- **webdriver-manager** for handling ChromeDriver
-- **datetime** for timestamps
-- **CSV** for data storage
-
-You can install the required Python libraries using pip:
-
-```bash
-pip install selenium webdriver-manager
-
 ## Key Steps in the Project
 
 ### 1. Libraries used:
@@ -42,3 +27,19 @@ pip install selenium webdriver-manager
 
 ### 3. Handling the Web Scraping
 - Selenium is used to load the page and BeautifulSoup to parse the HTML content.
+
+## Requirements
+
+Before running the script, you will need to install the required libraries:
+
+- **Python 3.x**
+- **Selenium** for web scraping
+- **webdriver-manager** for handling ChromeDriver
+- **datetime** for timestamps
+- **CSV** for data storage
+
+You can install the required Python libraries using pip:
+
+```bash
+pip install selenium webdriver-manager
+
