@@ -24,3 +24,21 @@ You can install the required Python libraries using pip:
 
 ```bash
 pip install selenium webdriver-manager
+
+## Key Steps in the Project
+
+### 1. Libraries used:
+- Selenium: To control the browser and scrape data from dynamic pages (like Lazada).
+- BeautifulSoup: To parse and extract data from the HTML.
+- Pandas (optional): For handling and saving data in a structured way (like CSV).
+- CSV: For writing the product data to a .csv file.
+- Datetime: To include the current timestamp in the data.
+
+### 2. Process Flow
+- The script loads the Lazada product page using Selenium WebDriver.
+- It extracts the product name and price using BeautifulSoup.
+- The extracted data is appended to a CSV file with the current timestamp.
+- The process is repeated every minute to ensure the data stays up-to-date.
+
+### 3. Handling the Web Scraping
+- Selenium is used to load the page and BeautifulSoup to parse the HTML content.
